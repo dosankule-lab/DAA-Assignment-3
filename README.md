@@ -267,5 +267,3 @@ The [Assignment 3 defence quiz](https://lms.astanait.edu.kz/mod/quiz/view.php?id
 ## 11. Academic integrity
 
 Follow the syllabus. In `ANALYSIS.md`, acknowledge external sources and AI tools, their contributions and your own verification; state if none were used. You are responsible for correctness, originality and quality. Report only tests and measurements you actually performed.
-#   D A A - A s s i g n m e n t - 3  
- 

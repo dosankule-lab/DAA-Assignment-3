@@ -1,0 +1,12 @@
+route(0->3) = [0, 1, 2, 3], parent_edge = [-1, 0, 2, 3, -1]
+route(0->0) = [0]
+route(0->4) = [] (empty list means no route)
+tied route(0->3) = [0, 1, 3], parent_edge = [-1, 0, 2, 4], distance = [0,4,2,5]
+TIME dsu random n=100000 q=250000                642.7 ms (build request, parse, run, write, re-parse)
+TIME kruskal random n=100000 m=250000            713.0 ms (build request, parse, run, write, re-parse)
+TIME prim random n=100000 m=250000               695.6 ms (build request, parse, run, write, re-parse)
+TIME scc chain n=100000                          360.0 ms (build request, parse, run, write, re-parse)
+TIME topo chain n=100000                         143.0 ms (build request, parse, run, write, re-parse)
+TIME dag chain n=100000                          211.1 ms (build request, parse, run, write, re-parse)
+TIME dag random n=100000 m=250000                539.8 ms (build request, parse, run, write, re-parse)
+TOTAL passed=9494 failed=0
